@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(191, 165, 141);
+        }
+
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(228, 212, 212);
+        }
+
+        #fruits{
+            float:right;
+            width:48%;
+        }
+
+        #computer{
+            float: left;
+            width: 48%;
+        }
+
+        #stationary{
+            width: 100%;
+            clear: both;
+        }
+
+        p, h3{
+            /* text-align: right; 
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+        h1{
+            margin:auto;
+            width: 455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, maxime facilis nihil nulla, hic dicta a sed officia sit consequuntur sapiente laboriosam repellat, eum veniam. Laboriosam odio pariatur magni cupiditate Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis totam, reprehenderit voluptatem vitae fuga recusandae eaque nisi perferendis labore quo, soluta blanditiis facilis laudantium sapiente non itaque molestias necessitatibus, eius in. Optio, incidunt veniam.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, maxime facilis nihil nulla, hic dicta a sed officia sit consequuntur sapiente laboriosam repellat, eum veniam. Laboriosam odio pariatur magni cupiditate Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla, quas molestiae aspernatur aperiam aut? Quia veniam in maxime distinctio commodi repellendus quidem, cumque, sed exercitationem quam officiis optio sapiente libero dolorum vitae odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, magni! Voluptates, odit in expedita reprehenderit ea asperiores veritatis eveniet natus.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, maxime facilis nihil nulla, hic dicta a sed officia sit consequuntur sapiente laboriosam repellat, eum veniam. Laboriosam odio pariatur magni cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id magnam corrupti neque.</p>
+        </div>
+    </div>
+</body>
+</html>
