@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in CSS</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: bisque;
+            height: 3444px;
+        }
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        #box3 {
+            /* RELATIVE: POSITIONS THE ELEMENT RELATIVE TO ITS NORMAL POSITION AND WILL LEAVE A GAP AT ITS NORMAL POSITION */
+            /* position:relative; */
+
+            /* ABSOLUTE: POSITIONS THE ELEMENT RELATIVE TO THE POSITION OF ITS FIRST PARENT */
+            /* position: absolute;
+            top: 34px;
+            left: 34px; */
+            
+            /* FIXED: POSITIONS THE ELEMENT RELATIVE TO THE BROWSER WINDOW */
+            /* position: fixed;
+            right: 4px; */
+
+            /* STICKY:  */
+            position: sticky;
+            top:3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+
+</html>
